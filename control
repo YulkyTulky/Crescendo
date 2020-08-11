@@ -1,0 +1,9 @@
+Package: com.yulkytulky.crescendo
+Name: Crescendo
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Customize volume step value!
+Maintainer: YulkyTulky
+Author: YulkyTulky
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader

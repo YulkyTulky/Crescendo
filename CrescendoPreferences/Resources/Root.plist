@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Enable Tweak</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>CRSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.yulkytulky.crescendo</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>icon</key>
+			<string>icon.png</string>
+			<key>PostNotification</key>
+			<string>com.yulkytulky.crescendo/saved</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>% Increment Up</string>
+			<key>footerText</key>
+			<string>Force touch for precise editing</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>cellClass</key>
+			<string>CRSSliderCell</string>
+			<key>default</key>
+			<real>6.25</real>
+			<key>min</key>
+			<real>0.0</real>
+			<key>max</key>
+			<real>100.0</real>
+			<key>defaults</key>
+			<string>com.yulkytulky.crescendo</string>
+			<key>showValue</key>
+			<true/>
+			<key>key</key>
+			<string>stepUp</string>
+			<key>PostNotification</key>
+			<string>com.yulkytulky.crescendo/saved</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>% Increment Down</string>
+			<key>footerText</key>
+			<string>Force touch for precise editing</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>cellClass</key>
+			<string>CRSSliderCell</string>
+			<key>default</key>
+			<real>6.25</real>
+			<key>min</key>
+			<real>0.0</real>
+			<key>max</key>
+			<real>100.0</real>
+			<key>defaults</key>
+			<string>com.yulkytulky.crescendo</string>
+			<key>showValue</key>
+			<true/>
+			<key>key</key>
+			<string>stepDown</string>
+			<key>PostNotification</key>
+			<string>com.yulkytulky.crescendo/saved</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>reset</string>
+			<key>label</key>
+			<string>Restore Default Preferences</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Developed by YulkyTulky | 2020</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>github</string>
+			<key>icon</key>
+			<string>github.png</string>
+			<key>label</key>
+			<string>Source Code  ❤️</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>discord</string>
+			<key>icon</key>
+			<string>discord.png</string>
+			<key>label</key>
+			<string>Discord Server</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>Crescendo</string>
+</dict>
+</plist>

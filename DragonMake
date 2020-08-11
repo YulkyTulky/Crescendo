@@ -1,0 +1,21 @@
+---
+name: Crescendo
+icmd: killall -9 backboardd
+
+all:
+    archs:
+        - arm64
+        - arm64e
+
+Crescendo:
+    type: tweak
+    logos_files:
+        - Tweak.x
+
+CrescendoPreferences:
+  dir: CrescendoPreferences
+  type: prefs
+  objc_files:
+    - CRSRootListController.m
+    - CRSSliderCell.m
+    - CRSSwitchCell.m
